@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		913CE1E517EF62E000A3CA66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913CE1E417EF62E000A3CA66 /* UIKit.framework */; };
+		913CE1E717EF62E000A3CA66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913CE1E617EF62E000A3CA66 /* Foundation.framework */; };
+		913CE1E917EF62E000A3CA66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913CE1E817EF62E000A3CA66 /* CoreGraphics.framework */; };
+		913CE1EF17EF62E000A3CA66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 913CE1ED17EF62E000A3CA66 /* InfoPlist.strings */; };
+		913CE1F117EF62E000A3CA66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 913CE1F017EF62E000A3CA66 /* main.m */; };
+		913CE1F517EF62E000A3CA66 /* DBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 913CE1F417EF62E000A3CA66 /* DBAppDelegate.m */; };
+		913CE1F717EF62E000A3CA66 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 913CE1F617EF62E000A3CA66 /* Default.png */; };
+		913CE1F917EF62E000A3CA66 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 913CE1F817EF62E000A3CA66 /* Default@2x.png */; };
+		913CE1FB17EF62E000A3CA66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 913CE1FA17EF62E000A3CA66 /* Default-568h@2x.png */; };
+		913CE1FE17EF62E000A3CA66 /* DBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913CE1FD17EF62E000A3CA66 /* DBViewController.m */; };
+		913CE20117EF62E000A3CA66 /* DBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913CE1FF17EF62E000A3CA66 /* DBViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		913CE1E117EF62E000A3CA66 /* Dan Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dan Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		913CE1E417EF62E000A3CA66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		913CE1E617EF62E000A3CA66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		913CE1E817EF62E000A3CA66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		913CE1EC17EF62E000A3CA66 /* Dan Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dan Timer-Info.plist"; sourceTree = "<group>"; };
+		913CE1EE17EF62E000A3CA66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		913CE1F017EF62E000A3CA66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		913CE1F217EF62E000A3CA66 /* Dan Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dan Timer-Prefix.pch"; sourceTree = "<group>"; };
+		913CE1F317EF62E000A3CA66 /* DBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAppDelegate.h; sourceTree = "<group>"; };
+		913CE1F417EF62E000A3CA66 /* DBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAppDelegate.m; sourceTree = "<group>"; };
+		913CE1F617EF62E000A3CA66 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		913CE1F817EF62E000A3CA66 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		913CE1FA17EF62E000A3CA66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		913CE1FC17EF62E000A3CA66 /* DBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBViewController.h; sourceTree = "<group>"; };
+		913CE1FD17EF62E000A3CA66 /* DBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBViewController.m; sourceTree = "<group>"; };
+		913CE20017EF62E000A3CA66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DBViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		913CE1DE17EF62E000A3CA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913CE1E517EF62E000A3CA66 /* UIKit.framework in Frameworks */,
+				913CE1E717EF62E000A3CA66 /* Foundation.framework in Frameworks */,
+				913CE1E917EF62E000A3CA66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		913CE1D817EF62E000A3CA66 = {
+			isa = PBXGroup;
+			children = (
+				913CE1EA17EF62E000A3CA66 /* Dan Timer */,
+				913CE1E317EF62E000A3CA66 /* Frameworks */,
+				913CE1E217EF62E000A3CA66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		913CE1E217EF62E000A3CA66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				913CE1E117EF62E000A3CA66 /* Dan Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		913CE1E317EF62E000A3CA66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				913CE1E417EF62E000A3CA66 /* UIKit.framework */,
+				913CE1E617EF62E000A3CA66 /* Foundation.framework */,
+				913CE1E817EF62E000A3CA66 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		913CE1EA17EF62E000A3CA66 /* Dan Timer */ = {
+			isa = PBXGroup;
+			children = (
+				913CE1F317EF62E000A3CA66 /* DBAppDelegate.h */,
+				913CE1F417EF62E000A3CA66 /* DBAppDelegate.m */,
+				913CE1FC17EF62E000A3CA66 /* DBViewController.h */,
+				913CE1FD17EF62E000A3CA66 /* DBViewController.m */,
+				913CE1FF17EF62E000A3CA66 /* DBViewController.xib */,
+				913CE1EB17EF62E000A3CA66 /* Supporting Files */,
+			);
+			path = "Dan Timer";
+			sourceTree = "<group>";
+		};
+		913CE1EB17EF62E000A3CA66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				913CE1EC17EF62E000A3CA66 /* Dan Timer-Info.plist */,
+				913CE1ED17EF62E000A3CA66 /* InfoPlist.strings */,
+				913CE1F017EF62E000A3CA66 /* main.m */,
+				913CE1F217EF62E000A3CA66 /* Dan Timer-Prefix.pch */,
+				913CE1F617EF62E000A3CA66 /* Default.png */,
+				913CE1F817EF62E000A3CA66 /* Default@2x.png */,
+				913CE1FA17EF62E000A3CA66 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		913CE1E017EF62E000A3CA66 /* Dan Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913CE20417EF62E000A3CA66 /* Build configuration list for PBXNativeTarget "Dan Timer" */;
+			buildPhases = (
+				913CE1DD17EF62E000A3CA66 /* Sources */,
+				913CE1DE17EF62E000A3CA66 /* Frameworks */,
+				913CE1DF17EF62E000A3CA66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dan Timer";
+			productName = "Dan Timer";
+			productReference = 913CE1E117EF62E000A3CA66 /* Dan Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		913CE1D917EF62E000A3CA66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = deebost;
+			};
+			buildConfigurationList = 913CE1DC17EF62E000A3CA66 /* Build configuration list for PBXProject "Dan Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 913CE1D817EF62E000A3CA66;
+			productRefGroup = 913CE1E217EF62E000A3CA66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				913CE1E017EF62E000A3CA66 /* Dan Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		913CE1DF17EF62E000A3CA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913CE1EF17EF62E000A3CA66 /* InfoPlist.strings in Resources */,
+				913CE1F717EF62E000A3CA66 /* Default.png in Resources */,
+				913CE1F917EF62E000A3CA66 /* Default@2x.png in Resources */,
+				913CE1FB17EF62E000A3CA66 /* Default-568h@2x.png in Resources */,
+				913CE20117EF62E000A3CA66 /* DBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		913CE1DD17EF62E000A3CA66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913CE1F117EF62E000A3CA66 /* main.m in Sources */,
+				913CE1F517EF62E000A3CA66 /* DBAppDelegate.m in Sources */,
+				913CE1FE17EF62E000A3CA66 /* DBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		913CE1ED17EF62E000A3CA66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913CE1EE17EF62E000A3CA66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		913CE1FF17EF62E000A3CA66 /* DBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913CE20017EF62E000A3CA66 /* en */,
+			);
+			name = DBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		913CE20217EF62E000A3CA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		913CE20317EF62E000A3CA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		913CE20517EF62E000A3CA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dan Timer/Dan Timer-Prefix.pch";
+				INFOPLIST_FILE = "Dan Timer/Dan Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		913CE20617EF62E000A3CA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dan Timer/Dan Timer-Prefix.pch";
+				INFOPLIST_FILE = "Dan Timer/Dan Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		913CE1DC17EF62E000A3CA66 /* Build configuration list for PBXProject "Dan Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913CE20217EF62E000A3CA66 /* Debug */,
+				913CE20317EF62E000A3CA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913CE20417EF62E000A3CA66 /* Build configuration list for PBXNativeTarget "Dan Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913CE20517EF62E000A3CA66 /* Debug */,
+				913CE20617EF62E000A3CA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 913CE1D917EF62E000A3CA66 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>91ED6FCA-106C-4354-ABF3-BCE1F3675702</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Todo List</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AFFD9A2A-EBDA-4568-B7FC-161F7597CCAD</key>
+		<string>https://github.com/deebost/stop-watch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Todo List/Todo List.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AFFD9A2A-EBDA-4568-B7FC-161F7597CCAD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/deebost/stop-watch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AFFD9A2A-EBDA-4568-B7FC-161F7597CCAD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AFFD9A2A-EBDA-4568-B7FC-161F7597CCAD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sept 25th</string>
+		</dict>
+	</array>
+</dict>
+</plist>
